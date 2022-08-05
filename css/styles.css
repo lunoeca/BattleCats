@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.title {
+    color : #FC28FB;
+    text-align: center; 
+}
+body {
+    background-color: #FDEBF7;
+    font-family: 'Press Start 2P', cursive;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+h1 {
+    font-size: 50px;
+    align-content: center;
+}
+#alwayshere{
+    
+    display: flex;
+    flex-direction: column;
+} 
+#firstpage{
+    
+}
+#intro {
+    align-content: center;
+    
+}
+
+
+.initialinfo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+.powers {
+    font-weight: bold;
+    background-color: #FBCAFF;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 12px groove #FFADF0;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.combats {
+    font-weight: bold;
+    background-color: #FBCAFF;
+    border: 12px groove #FFADF0;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+#CHOOSE_FIGHTER {
+    display: flex;    
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: center; 
+    gap: 10px; 
+    
+}
+#selecttitle {
+    font-size: 30px;
+    width: 500px;
+}
+.cards { 
+    display: flex;
+    gap: 10px;
+    border-radius: 15px;
+    align-items: center; 
+    align-content: center;
+    justify-content: center;
+}
+.cards img {
+    width: 130px;
+    align-items: center;
+}
+label { 
+    background-color: #EE81B3;
+    padding: 10px;
+    width: 200px;
+    height: 220px;
+    font-weight: bold;
+    font-size: small;
+    box-sizing: border-box;
+    margin: 10px;  
+    border: 4px outset #FFADF0;  
+    border-radius: 20px;
+   
+}
+
+button {
+    background-color:#FBCAFF;
+    width: 200px;
+    height: 40px;
+    font-size: small;
+    border: 5px outset #FFADF0;
+    border-radius: 7px;
+    padding: 1px;
+    margin: 5px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#CHOOSE_ATTACK {
+    text-align: center;
+    align-items: center;
+
+}    
+#attacktitle {
+    font-size: 30px;
+}
+
+
+
+
+
+#messages {
+    background-color:#FBCAFF ;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;  
+}
+

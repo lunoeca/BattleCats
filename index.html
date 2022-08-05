@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>🌿💧🔥🐱 BATTLE CATS! 🐱🔥💧🌿</title>
+    </head>
+    <body>
+        <section id="firstpage">
+            <section id="alwayshere">
+                <section id="intro">
+                    <h1 class="title">🌿💧🔥🐱 BATTLE CATS! 🐱🔥💧🌿</h1>
+                </section>
+                <section id="info">
+                    <div class="initialinfo"> 
+                        <div class="powers">
+                            <div>Mint 🐱 --> 🌿 and 💧 </div>
+                            <div>Cinnamon🐱 --> 🔥 and 🌿</div>  
+                            <div>Choco 🐱 --> 🌿 and 🔥</div>
+                            <div>Lemon 🐱 --> 💧 and 🌿 </div>
+                            <div>Cyan 🐱 --> 💧 and 🔥 </div>
+                            <div>Lava 🐱 --> 🔥 and 💧</div>
+                        </div>
+                        <div class="combats">
+                            <div>🔥 vs 🌿 --> 🔥 wins</div>  
+                            <div>🌿 vs 💧 --> 💧 wins</div> 
+                            <div>💧 vs 🔥 --> 💧 wins</div> 
+                        </div>
+                    </div>    
+                </section>
+            </section>
+        
+            <!-- Define the posible fighters-->
+            <section id="CHOOSE_FIGHTER"> 
+                <h2 class="title" id="selecttitle">CHOOSE YOUR FIGHTER</h2>
+                <div class="cards">
+                    <input type="radio" name="fighter" id="Mint Cat"/>
+                    <label for='Mint Cat'>
+                        <p>Mint Cat</p>
+                        <img src="./assets/gat1.jpg" alt="Mint Cat">
+                    </label>
+                    <input type="radio" name="fighter" id="Cinnamon Cat"/>
+                    <label for='Cinnamon Cat'>
+                        <p>Cinnamon Cat</p>
+                        <img src="./assets/gat5.jpg" alt="Cinnamon Cat">
+                    </label>
+                    <input type="radio" name="fighter" id="Choco Cat"/>
+                    <label for='Choco Cat'>
+                        <p>Choco Cat</p>
+                        <img src="./assets/gat4.jpg" alt="Choco Cat">
+                    </label>
+                    <input type="radio" name="fighter" id="Lemon Cat"/>
+                    <label for='Lemon Cat'><p>Lemon Cat</p>
+                        <img src="./assets/gat6.jpg" alt="Lemon Cat"></label>
+                    <input type="radio" name="fighter" id="Cyan Cat"/>
+                    <label for='Cyan Cat'><p>Cyan Cat</p>
+                        <img src="./assets/gat2.jpg" alt="Cyan Cat"></label>
+                    <input type="radio" name="fighter" id="Lava Cat"/>
+                    <label for='Lava Cat'><p>Lava Cat</p>
+                        <img src="./assets/gat3.jpg" alt="Lava Cat"></label>
+                </div>
+                <button id="button_FighterSelect">Select</button>
+                
+            </section> 
+        </section>
+        <!-- Define the posible attacks-->
+        <section id="CHOOSE_ATTACK"> 
+            <h2 class="title" id="attacktitle">CHOOSE YOUR ATTACK</h2>
+            <p>Your fighter <span id="fightername"></span> has <span id="fighterlifes">3</span> lifes</p>
+            <p>Your enemy's fighter <span id="enemyname"></span> has <span id="enemylifes">3</span> lifes</p>
+            <p>
+                <button id="button_fire">
+                    FIRE 🔥
+                </button>
+                <button id="button_water">
+                    WATER 💧
+                </button>
+                <button id="button_earth">
+                    EARTH 🌿
+                </button>
+            </p>
+            <section id="messages">
+            </section>
+        </section>
+        
+        <!-- Start again-->
+            <button id="button_restart">Restart</button>
+        <!-- Connect with js -->
+        <script src="./js/main.js"></script>
+
+    </body>
+</html>
