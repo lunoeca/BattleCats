@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="shortcut icon" href="./assets/gat2-PhotoRoom.png" type="image/x-icon">
+        <title>🌿💧🔥🐱 BATTLE CATS! 🐱🔥💧🌿</title>
+    </head>
+    <body>
+        <section >
+            <h1 class="title"> BATTLE CATS! <br> 🌿💧🔥🐱 </h1>
+
+        </section>
+        <section id="firstpage">
+            <section id="top">
+                <section id="info">
+                    <div id="initialinfo"> 
+                        <div id="powers">
+                            <div>Mint 🐱 --> 🌿 and 💧 </div>
+                            <div>Cinnamon🐱 --> 🔥 and 🌿</div>  
+                            <div>Choco 🐱 --> 🌿 and 🔥</div>
+                            <div>Lemon 🐱 --> 💧 and 🌿 </div>
+                            <div>Cyan 🐱 --> 💧 and 🔥 </div>
+                            <div>Lava 🐱 --> 🔥 and 💧</div>
+                        </div>
+                        <div id="combats">
+                            <div>🔥 vs 🌿 --> 🔥 wins</div>  
+                            <div>🌿 vs 💧 --> 💧 wins</div> 
+                            <div>💧 vs 🔥 --> 💧 wins</div> 
+                        </div>
+                    </div>    
+                </section>
+            </section>
+        
+            <!-- Define the posible fighters-->
+            <section id="CHOOSE_FIGHTER"> 
+                <h2 class="subtitle" id="selecttitle">CHOOSE YOUR FIGHTER</h2>
+                <div class="cards">          
+                    <label for='Mint Cat' class="cats">
+                        <p>Mint Cat</p>
+                        <img src="./assets/gat1-PhotoRoom.png" alt="Mint Cat">
+                        <input type="radio" name="fighter" id="Mint Cat"/>
+                    </label>
+
+                    <label for='Cinnamon Cat' class="cats">
+                        <p>Cinnamon Cat</p>
+                        <img src="./assets/gat5-PhotoRoom.png" alt="Cinnamon Cat">
+                        <input type="radio" name="fighter" id="Cinnamon Cat"/>
+                    </label>
+
+                    <label for='Choco Cat' class="cats">
+                        <p>Choco Cat</p>
+                        <img src="./assets/gat4-PhotoRoom.png" alt="Choco Cat">
+                        <input type="radio" name="fighter" id="Choco Cat"/>
+                    </label>
+
+                    <label for='Lemon Cat' class="cats">
+                        <p>Lemon Cat</p>
+                        <img src="./assets/gat6-PhotoRoom.png" alt="Lemon Cat">
+                        <input type="radio" name="fighter" id="Lemon Cat"/>
+                    </label>
+                    
+                    <label for='Cyan Cat' class="cats">
+                        <p>Cyan Cat</p>
+                        <img src="./assets/gat2-PhotoRoom.png" alt="Cyan Cat">
+                        <input type="radio" name="fighter" id="Cyan Cat"/>
+                    </label>
+
+                    <label for='Lava Cat'class="cats">
+                        <p>Lava Cat</p>
+                        <img src="./assets/gat3-PhotoRoom.png" alt="Lava Cat">
+                        <input type="radio" name="fighter" id="Lava Cat"/>
+                    </label>
+                        
+                    
+                </div>
+                <button id="button_FighterSelect">Select</button>   
+            </section> 
+        </section>
+        <!-- Define the posible attacks-->
+        <section id="CHOOSE_ATTACK"> 
+            <h2 class="subtitle" id="attacktitle">CHOOSE YOUR ATTACK</h2>
+            <div id="status">    
+            </div> 
+            <div id="attackbutton">
+                <button id="button_fire">FIRE 🔥</button>
+                <button id="button_water">WATER 💧</button>
+                <button id="button_earth">EARTH 🌿</button>
+            </div>
+            
+            <div id="messages">
+                <p id="battleresult">Good Luck!</p>
+                
+                <button id="button_restart">Restart</button>
+            </div>
+            <div class="fightcard">
+                <div>
+                    <p id="fightername"></p>
+                    <p id="fighterlifes">3 </p><img src="./assets/heart-PhotoRoom.png" alt="life">
+                    <div id="result_player"></div>
+                </div>
+                <div>
+                    <p id="enemyname"></p>
+                    <p id="enemylifes">3 </p><img src="./assets/heart-PhotoRoom.png" alt="life">
+                    <div id="result_enemy"></div>                 
+                </div>
+            </div>
+            
+         </section>
+         <!-- Connect with js -->
+        <script src="./js/main.js"></script>
+
+    </body>
+</html>
