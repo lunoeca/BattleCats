@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>🌿💧🔥🐱 BATTLE CATS! 🐱🔥💧🌿</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1 class="title">BATTLE CATS! <br> 🌿💧🔥🐱</h1>
+            </div>
+            <div class="initialinfo"> 
+                <div class="powers">
+                    <div>Mint 🐱 --> 🌿 and 💧 </div>
+                    <div>Choco 🐱 --> 🌿 and 🔥</div>
+                    <div>Lemon 🐱 --> 💧 and 🌿 </div>
+                    <div>Cyan 🐱 --> 💧 and 🔥 </div>
+                    <div>Lava 🐱 --> 🔥 and 💧</div>
+                    <div>Cinnamon 🐱 --> 🔥 and 🌿</div>  
+                </div>
+                <div class="combats">
+                    <div>🔥 vs 🌿 --> 🔥 wins</div>  
+                    <div>🌿 vs 💧 --> 💧 wins</div> 
+                    <div>💧 vs 🔥 --> 💧 wins</div> 
+                </div>
+            </div>    
+        </header>
+        <main>    <!-- Define the posible fighters-->
+            <section id="CHOOSE_FIGHTER"> 
+                <h2 class="title">CHOOSE YOUR FIGHTER</h2>
+                <div class="cards">          
+                    <div>
+                        <label for='Mint Cat' class="cats">
+                        <p>Mint Cat</p>
+                        <img src="./assets/gat1-PhotoRoom.png" alt="Mint Cat">
+                        <input type="radio" name="fighter" id="Mint Cat"/>
+                        </label>
+                    </div>
+                    <div>
+                        <label for='Choco Cat' class="cats">
+                            <p>Choco Cat</p>
+                            <img src="./assets/gat4-PhotoRoom.png" alt="Choco Cat">
+                            <input type="radio" name="fighter" id="Choco Cat"/>
+                        </label>
+                    </div>
+                    <div>
+                        <label for='Lemon Cat' class="cats">
+                            <p>Lemon Cat</p>
+                            <img src="./assets/gat6-PhotoRoom.png" alt="Lemon Cat">
+                            <input type="radio" name="fighter" id="Lemon Cat"/>
+                        </label>
+                    </div>  
+                    <div>
+                        <label for='Cyan Cat' class="cats">
+                            <p>Cyan Cat</p>
+                            <img src="./assets/gat2-PhotoRoom.png" alt="Cyan Cat">
+                            <input type="radio" name="fighter" id="Cyan Cat"/>
+                        </label>
+                    </div>
+                    <div>
+                        <label for='Lava Cat'class="cats">
+                            <p>Lava Cat</p>
+                            <img src="./assets/gat3-PhotoRoom.png" alt="Lava Cat">
+                            <input type="radio" name="fighter" id="Lava Cat"/>
+                        </label>
+                    </div>
+                    <div>
+                        <label for='Cinnamon Cat' class="cats">
+                            <p>Cinnamon Cat</p>
+                            <img src="./assets/gat5-PhotoRoom.png" alt="Cinnamon Cat">
+                            <input type="radio" name="fighter" id="Cinnamon Cat"/>
+                        </label>
+                    </div>
+                </div>
+                <button id="button_FighterSelect">Select</button>
+                
+            </section> 
+        <!-- Define the posible attacks-->
+            <section id="CHOOSE_ATTACK"> 
+                <h2 class="subtitle" >CHOOSE YOUR ATTACK</h2>
+                <p>Your fighter <span id="fightername"></span> has <span id="fighterlifes">3</span> lifes</p>
+                <p>Your enemy's fighter <span id="enemyname"></span> has <span id="enemylifes">3</span> lifes</p>
+                
+                <div id="messages">
+                </div>
+
+                <div id="status">    
+                    <div id="attackbutton">
+                        <button id="button_fire">FIRE 🔥</button>
+                        <button id="button_water">WATER 💧</button>
+                        <button id="button_earth">EARTH 🌿</button>
+                    </div>
+                    <div id="messages">
+                        <p id="battleresult">Good Luck!</p>
+                        
+                        <button id="button_restart">Restart</button>
+                    </div>
+                    <div class="fightcard">
+                        <div>
+                            <p id="fightername">Your fighter</p>
+                            <img src="./assets/heart-PhotoRoom.png" alt="life">
+                            <p id="fighterlifes">3 </p>
+                            <div id="result_player"></div>
+                        </div>
+                        <div>
+                            <p id="enemyname">Enemy</p>
+                            <img src="./assets/heart-PhotoRoom.png" alt="life">
+                            <p id="enemylifes">3 </p>
+                            <div id="result_enemy"></div>                 
+                        </div>
+                    </div>
+                </div> 
+            </section>
+        
+        <!-- Start again-->
+            <button id="button_restart">Restart</button>
+        </main>
+        <footer>
+            <p>By Lucia Noely Cano</p>
+        </footer>
+        <!-- Connect with js -->
+        <script src="./js/main.js"></script>
+
+    </body>
+</html>

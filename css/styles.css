@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.title {
+    color : #614124;
+    text-align: center; 
+    background-color: #E8C07D;
+    padding: 25px;
+}
+header {
+    
+}
+body {
+    background-color: #614124;
+    background-image: url(../assets/back3.jpeg);
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    font-family: 'Press Start 2P', cursive;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+h1 {
+    font-size: 50px;
+    align-content: center;
+}
+
+#intro {
+    align-content: center;
+    
+}
+
+
+.initialinfo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+header > div {
+    display: flex;
+    flex-direction: column;
+}
+header > div > div {
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #CC704B;
+    border: 12px groove #614124;
+    width: 500px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+#CHOOSE_FIGHTER {
+    display: flex;    
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: center; 
+    gap: 10px; 
+    
+}
+#selecttitle {
+    font-size: 30px;
+    width: 500px;
+}
+.cards { 
+    display: flex;
+    gap: 10px;
+    border-radius: 15px;
+    align-items: center; 
+    align-content: center;
+    justify-content: center;
+}
+.cards img {
+    width: 130px;
+    align-items: center;
+}
+
+
+button {
+    background-color:#E8C07D;
+    width: 200px;
+    height: 40px;
+    font-size: small;
+    border: 5px outset #614124;
+    border-radius: 7px;
+    padding: 1px;
+    margin: 5px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#CHOOSE_ATTACK {
+    text-align: center;
+    align-items: center;
+
+}    
+#attacktitle {
+    font-size: 30px;
+}
+
+
+
+
+
+#messages {
+    background-color:#FBCAFF ;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;  
+}
+body {
+
+    font-family: 'Press Start 2P', cursive;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#top{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+#firstpage{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#initialinfo {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+#powers {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    width: 500px;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 12px groove #FFADF0;
+    margin-right: auto;
+    margin-left: auto; 
+}
+#combats {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    border: 12px groove #FFADF0;
+    width: 250px;
+    height: 50px;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.subtitle {
+    color : #FC28FB;
+    text-align: center; 
+    align-self: center;
+    margin-top: 25px;
+    font-size: 30px;
+    width: 500px;
+
+}
+h2 {
+    display: block;
+    font-size: 30px;
+    margin-block-start: 40px;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#CHOOSE_FIGHTER {
+    display: flex;    
+    flex-flow: column wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    gap: 10px; 
+    
+}
+
+.cards { 
+    display: flex;
+    border-radius: 15px;
+    align-items: center; 
+    align-content: center;
+    justify-content: center;
+}
+.cats{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.cards img {
+    width: 100px;
+    align-items: center;
+}
+
+label { 
+    background-color: #9FC088;
+    padding: 10px;
+    width: 180px;
+    height: 170px;
+    font-weight: bold;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin: 10px;  
+    border: 4px outset #CC704B;  
+    border-radius: 20px;
+}
+
+
+
+
+#CHOOSE_ATTACK {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+#attackbutton {
+    margin-top: 25px;
+}
+#messages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#FBCAFF ;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;  
+    width: 500px;
+}
+.fightcard{
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: 300px 300px;
+    text-align: center;
+    border: 12px groove #FFADF0;
+    border-radius: 15px;
+}
+.fightcard img {
+    width: 20px;
+    align-items: center;
+
+}
+@media (max-width: 380px){
+    .cards { 
+        flex-direction: column;
+
+    }
+
+}
