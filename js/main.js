@@ -1,5 +1,4 @@
 
-
 let attackplayer
 let attackenemy
 let battleresult
@@ -174,7 +173,6 @@ function creatfinalmessage(finalresult){
 
     let messagesection = document.getElementById("battleresult")
     messagesection.innerHTML = finalresult 
-   
     let button_fire = document.getElementById('button_fire')
     button_fire.disabled = true
     let button_water = document.getElementById('button_water')
